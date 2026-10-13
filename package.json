@@ -1,0 +1,18 @@
+{
+  "name": "ai-chatbot",
+  "version": "1.0.0",
+  "description": "Express + OpenAI(gpt-4o-mini) 간단한 AI 챗봇 (Vercel 배포용)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "openai": "^7.32.0"
+  }
+}
